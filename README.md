@@ -28,8 +28,9 @@ Then, we want to extract interesting features in the quotes that could ideally b
 * The richness of the vocabulary, that we compute by counting the number of different words in the pre-processed quotes and by dividing it by the total number of quotes of the speaker.
 * The scores returned by the analyze function of the Empath library for different lexical categories. We choose the categories listed below, and obtain a score for each one of them:  
 *money, hate, family, health, dispute, nervousness, government, swearing_terms, suffering, optimism, divine, sexual, fear, business, religion, worship, leader, death, violence, military, war, rage, science, sadness, joy, economics, politics, anger, strength, power, terrorism, poor, pain, philosophy, negative_emotion, competing, law, achievement, contentment, positive_emotion*
-   
 
+For a first analysis, we chose a broad selection of features. However, we will need to check if these features are relevant and not too correlated.
+   
 #### Place the Pope on a political spectrum
 
 
