@@ -16,7 +16,21 @@ At first glance, one might think that the Pope does not have much impact on our 
 
 
 ### Methods
-#### Choice of speakers/ Different datasets
+
+The political spectrum we chose to place the Pope on is the American bipartite system with on one end the Democratic Party and on the other side the Republican Party. We chose this system because Quotebank corpus is in English, their political spectrum is particularly simple and a high number of quotations are from American politicians [2].
+
+Our general approach consists in extracting meaningful features from the quotations corpus of the pope, to do the same for a few emblematic American political figures and finally to apply a dimensionality reduction method in order to appreciate the relative position of the politicians with regards to the pope. 
+
+| Political figure | Party      | Number of quotations |
+|------------------|------------|----------------------|
+| Elizabeth Warren | Democrates | 48'397               |
+| Bernie Sanders   | Democrates | 84'018               |
+| Hillary Clinton  | Democrates | 95'458               |
+| Ted Cruz         | Republicans| 46'301               |
+| Mike Pence       | Republicans| 46'893               |
+| Mitt Romney      | Republicans| 10'651               |
+
+ 
 #### Pre-Processing
 First, we perform the crucial step of pre-processing the data. This enhances the quality of the feature extraction we perform in the following steps. We transform the speakers' probability from object type into float numbers to simplify future analysis. We eliminate from the data the quotes that have too low a first speaker probability. (EXPLIQUER SI THRESHOLD) Then, we perform simple pre-processing steps on the quotes such as removing the digits, punctuation, spaces at the beginning and ending of quotes, capitalization from words and removing rows with empty quotes. We also tokenize the quotes (break the strings into tokens) to remove the stop words and lemmatize the quotes to focus on meaning. Finally, after performing these steps, we delete quotes that are not in English.
 
