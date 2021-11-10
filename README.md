@@ -3,7 +3,7 @@
 # Popelitical Spectrum
 
 ### Abstract
-At first glance, the Pope might not be considered to have a strong impact on our everyday life and on our country’s politics, and still, he influences over 1.3 billion Catholics worldwide and regularly meets with the most powerful political figures of the planet. In the present work, we want to investigate how one of the mightiest apolitical figures on Earth [1] influences one sixth of the world population by using a novel quotations corpus : Quotebank [2]. 
+At first glance, one might think that the Pope does not have much impact on our everyday life and on our country’s politics, yet he influences over 1.3 billion Catholics worldwide and regularly meets with the most powerful political figures of the planet. In the present work, we want to investigate how one of the mightiest apolitical figures on Earth [1] influences one sixth of the world population by using a novel quotations corpus : Quotebank [2].
 
 ### Research questions
 
