@@ -34,6 +34,7 @@ At first glance, the Pope might not be considered to have a strong impact on our
 
 ### References:
 [1] Forbes list of the World's Most Powerful People, Forbes, 2018, https://www.forbes.com/profile/pope-francis/?list=powerful-people&sh=2f8961946e0a, last accessed November 10 2021
+
 [2] Vaucher Timoté, et al. "Quotebank: A Corpus of Quotations from a Decade of News." (2021) Proceedings of the 14th ACM International Conference on Web Search and Data Mining
 
 
