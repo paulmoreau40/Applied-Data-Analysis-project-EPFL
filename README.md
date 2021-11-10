@@ -23,12 +23,12 @@ Our general approach consists in extracting meaningful features from the quotati
 
 | Political figure | Party      | Number of quotations |
 |------------------|------------|----------------------|
-| Elizabeth Warren | Democrates | 48'397               |
-| Bernie Sanders   | Democrates | 84'018               |
-| Hillary Clinton  | Democrates | 95'458               |
-| Ted Cruz         | Republicans| 46'301               |
-| Mike Pence       | Republicans| 46'893               |
-| Mitt Romney      | Republicans| 10'651               |
+| Elizabeth Warren | Democratic | 48'397               |
+| Bernie Sanders   | Democratic | 84'018               |
+| Hillary Clinton  | Democratic | 95'458               |
+| Ted Cruz         | Republican| 46'301               |
+| Mike Pence       | Republican| 46'893               |
+| Mitt Romney      | Republican| 10'651               |
 
  
 #### Pre-Processing
