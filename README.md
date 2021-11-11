@@ -54,7 +54,10 @@ For a first analysis, we have chosen a broad selection of features. However, we 
 ### Timeline
 
 #### Intermediate steps until Milestone 3
-
+IDEAS FOR THE FUTURE (BROUILLON)
+* Study in more detail which features are most useful and relevant for our analysis
+* Investigate if Sentiment Analysis can be used as a feature for the PCA (for example by extracting the general sentiment over a specific topic for each speaker)
+* Try to add other speakers, compare with other figures (ex: Dalai Lama)
 
 ### Questions for the TAs
 
