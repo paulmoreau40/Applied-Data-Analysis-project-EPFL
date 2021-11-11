@@ -3,8 +3,7 @@
 # Popelitical Spectrum
 
 ### Abstract
-At first glance, one might think that the Pope does not have much impact on our everyday life and on our country’s politics, yet he influences over 1.3 billion Catholics worldwide and regularly meets with the most powerful political figures of the planet. In the present work, we want to investigate how one of the mightiest apolitical figures on Earth [1] influences one sixth of the world population by using a novel quotations corpus : Quotebank [2]. QUELQUES PHRASES EN PLUS IDEALEMENT (l'abstract fait que 77 mots sur max 150)
-
+At first glance, one might think that the Pope does not have much impact on our everyday life and on our country’s politics, yet he influences over 1.3 billion Catholics worldwide and regularly meets with the most powerful political figures of the planet. In the present work, we want to investigate how one of the mightiest apolitical figures on Earth [1] influences one sixth of the world population by using a novel quotations corpus : Quotebank [2]. The main idea is therefore to try to situate the Pope on a political spectrum, here the american political system, using characteristics extracted from the corpus of his quotes. This will help us determine whether such an influential and, suposedly, non-political figure can be aligned with a certain political party or not.
 ### Research questions
 
 * Can we place the Pope on a simple political spectrum (e.g. American Democrates vs Republicans) using solely the quotations ?
