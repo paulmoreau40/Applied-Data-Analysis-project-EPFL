@@ -10,6 +10,7 @@ At first glance, one might think that the Pope does not have much impact on our 
 * Can we place the Pope on a simple political spectrum (e.g. American Democrates vs Republicans) using solely the quotations ?
 * What crucial features of the quotations will we need to do that ?
   * Is the use of lexical fields in an individual's citation corpus sufficient?
+  * Can performing sentiment analysis on quotes with similar topics be useful and serve as a new feature to extract?
 QUELQUES QUESTIONS EN PLUS IDEALEMENT
 
 ### Methods
