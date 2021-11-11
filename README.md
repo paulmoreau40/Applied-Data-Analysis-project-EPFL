@@ -47,6 +47,7 @@ Then, we want to extract interesting features in the quotes that could ideally b
 
 For a first analysis, we have chosen a broad selection of features. However, we will have to check if these features are relevant and not too correlated, especially since some of them may be redundant.
    
+#### PCA 
 
 #### Validate our method
 
