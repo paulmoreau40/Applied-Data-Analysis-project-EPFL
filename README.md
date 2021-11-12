@@ -67,13 +67,11 @@ IDEAS FOR THE FUTURE (BROUILLON)
 ### References:
 [1] https://www.forbes.com/profile/pope-francis/?list=powerful-people&sh=2f8961946e0a
 
-[2] Vaucher Timoté, et al. "Quotebank: A Corpus of Quotations from a Decade of News." (2021) Proceedings of the 14th ACM International Conference on Web Search and Data Mining
+[2] https://www.businessinsider.com/2020-democratic-presidential-candidates-political-spectrum-ranking-2019-5?IR=T
 
-[3] https://www.businessinsider.com/2020-democratic-presidential-candidates-political-spectrum-ranking-2019-5?IR=T
+[3] https://www.bbc.com/news/election-us-2016-35703300
 
-[4] https://www.bbc.com/news/election-us-2016-35703300
-
-[5] https://www.isidewith.com/
+[4] https://www.isidewith.com/
 
 
 
