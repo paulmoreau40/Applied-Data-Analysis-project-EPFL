@@ -1,7 +1,0 @@
-Files : 
-
-all_features_0 -> all features with all pre processing steps (78% variance expliquée)
-all_features_1 -> no language filtering (76% variance expliquée)
-all_features_2 -> removing stop words between tokenization and lemmatization
-all_features_3 -> without removing prob <= 0.5 (73,21% variance expliquée)
-all_features_4 -> keeping capitalization (77.6% variance expliquée)
