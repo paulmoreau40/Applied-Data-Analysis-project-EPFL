@@ -54,6 +54,7 @@ In the following weeks we will implement our future intermediate milestones and 
 * Week 13: Finalization of the project
 
 ### Organization within the team
+* Improve pre-processing techniques:  investigate faster language detection techniques and optimize the `probability` threshold method
 * Check if the extracted features are relevant and not correlated with one another.
 * Investigate if sentiment analysis can be used as a feature for the PCA (by extracting the general sentiment over a specific topic for each speaker), using VADER library
 * Add other politicians or compare the Pope with another religious figure (Dalai Lama)
