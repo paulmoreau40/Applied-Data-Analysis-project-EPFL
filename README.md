@@ -34,7 +34,7 @@ So far, we chose three Democrates and three Republicans with a substantial numbe
 * langdetect
 
 #### Pre-Processing
-First, we perform the crucial step of pre-processing the data. This enhances the quality of the feature extraction we perform in the following steps. We transform the speakers' probability from object type into float numbers to simplify future analysis. We eliminate from the data the quotes that have too low a first speaker probability. Then, we perform simple pre-processing steps on the quotes such as removing the digits, punctuation, spaces at the beginning and ending of quotes, capitalization from words and removing rows with empty quotes. We also tokenize the quotes (break the strings into tokens) to remove the stop words and lemmatize the quotes to focus on meaning. Finally, after performing these steps, we delete quotes that are not in English.
+First, we transform the speakers' probability from object type into float numbers to simplify future analysis. We eliminate from the data the quotes that have too low a first speaker probability. Then, we perform simple pre-processing steps on the quotes such as removing the digits, punctuation, spaces at the beginning and ending of quotes, capitalization from words and removing rows with empty quotes. We also tokenize the quotes (break the strings into tokens) to remove the stop words and lemmatize the quotes to focus on meaning. Finally, after performing these steps, we delete quotes that are not in English.
 
 #### Feature extraction
 Then, we want to extract interesting features in the quotes that could ideally be used to cluster the different speakers into political groups and enable to find the Pope's position on this political spectrum. The first features that we extract for each speaker are:
@@ -47,16 +47,20 @@ Then, we want to extract interesting features in the quotes that could ideally b
    
 
 ### Timeline
+In the following weeks we will implement our future intermediate milestones and think of additional approaches to deepen our project:
 
-
+* Week 11: Improve pre-processing, feature extraction, PCA and PCA validation taking into account the feedback from Milestone 2
+* Week 12: Develop sentiment analysis features, add other speakers to our analysis and try political party classification 
+* Week 13: Finalization of the project
 
 ### Organization within the team
 * Check if the extracted features are relevant and not correlated with one another.
 * Investigate if sentiment analysis can be used as a feature for the PCA (by extracting the general sentiment over a specific topic for each speaker), using VADER library
 * Add other politicians or compare the Pope with another religious figure (Dalai Lama)
-* Use `second_speaker` and `third_speaker` with above information to create a Net starting from the Pope.
+* Classify by party (Republican, Democratic, Apolitic) using a subsample of a speaker's quotes 
 
 ### Questions for the TAs
+Do you advise us to focus mainly on improving our feature extraction for the PCA or adding a new axis to our project?
 
 
 ### References:
