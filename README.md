@@ -33,7 +33,7 @@ So far, we chose three Democrates and three Republicans with a substantial numbe
 * empath
 * scipy
 * langdetect
-* (for Sentiment Analysis future = VADER Sentiment Analysis)
+
 #### Pre-Processing
 First, we perform the crucial step of pre-processing the data. This enhances the quality of the feature extraction we perform in the following steps. We transform the speakers' probability from object type into float numbers to simplify future analysis. We eliminate from the data the quotes that have too low a first speaker probability. (EXPLIQUER SI THRESHOLD) Then, we perform simple pre-processing steps on the quotes such as removing the digits, punctuation, spaces at the beginning and ending of quotes, capitalization from words and removing rows with empty quotes. We also tokenize the quotes (break the strings into tokens) to remove the stop words and lemmatize the quotes to focus on meaning. Finally, after performing these steps, we delete quotes that are not in English.
 
@@ -58,7 +58,7 @@ For a first analysis, we have chosen a broad selection of features. However, we 
 #### Intermediate steps until Milestone 3
 IDEAS FOR THE FUTURE (BROUILLON)
 * Study in more detail which features are most useful and relevant for our analysis (remove collinear features etc)
-* Investigate if Sentiment Analysis can be used as a feature for the PCA (for example by extracting the general sentiment over a specific topic for each speaker)
+* Investigate if Sentiment Analysis can be used as a feature for the PCA (for example by extracting the general sentiment over a specific topic for each speaker), using VADER library
 * Try to add other politicians, or compare the Pope with another religious figure (ex: Dalai Lama)
 * Use `second_speaker` and `third_speaker` with other information to create a Net starting from the Pope.
 
