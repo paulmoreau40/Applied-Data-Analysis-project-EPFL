@@ -39,9 +39,9 @@ First, we perform the crucial step of pre-processing the data. This enhances the
 
 #### Feature extraction
 Then, we want to extract interesting features in the quotes that could ideally be used to cluster the different speakers into political groups and enable to find the Pope's position on this political spectrum. The first features that we extract for each speaker are:
-* The mean, median and standard deviation of the number of words in the quotes
-* The mean, median and standard deviation of the number of characters in the quotes
-* The mean, median and standard deviation of the number of occurences of the quotes
+* The median of the number of words in the quotes
+* The median of the number of characters in the quotes
+* The median of the number of occurences of the quotes
 * The richness of the vocabulary, that we compute by counting the number of different words in the pre-processed quotes and by dividing it by the total number of quotes of the speaker.
 * The scores returned by the analyze function of the Empath library for different lexical categories. We choose the categories listed below, and obtain a score for each one of them:  
 *money, hate, family, health, dispute, nervousness, government, swearing_terms, suffering, optimism, divine, sexual, fear, business, religion, worship, leader, death, violence, military, war, rage, science, sadness, joy, economics, politics, anger, strength, power, terrorism, poor, pain, philosophy, negative_emotion, competing, law, achievement, contentment, positive_emotion*
