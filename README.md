@@ -58,7 +58,7 @@ In the following weeks we will implement our future intermediate milestones and 
 * Check if the extracted features are relevant and not correlated with one another.
 * Investigate if sentiment analysis can be used as a feature for the PCA (by extracting the general sentiment over a specific topic for each speaker), using VADER library
 * Add other politicians or compare the Pope with another religious figure (Dalai Lama)
-* Classify by party (Republican, Democratic, Apolitic) using a subsample of a speaker's quotes 
+* Classify by party (Republican, Democratic, Apolitic) using a subsample of the speaker's quotes 
 
 ### Questions for the TAs
 Do you advise us to focus mainly on improving our feature extraction for the PCA or adding a new axis to our project?
