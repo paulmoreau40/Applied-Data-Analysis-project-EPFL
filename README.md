@@ -60,6 +60,7 @@ IDEAS FOR THE FUTURE (BROUILLON)
 * Study in more detail which features are most useful and relevant for our analysis (remove collinear features etc)
 * Investigate if Sentiment Analysis can be used as a feature for the PCA (for example by extracting the general sentiment over a specific topic for each speaker)
 * Try to add other politicians, or compare the Pope with another religious figure (ex: Dalai Lama)
+* Use `second_speaker` and `third_speaker` with other information to create a Net starting from the Pope.
 
 ### Questions for the TAs
 
