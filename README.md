@@ -48,7 +48,7 @@ Then, we want to extract interesting features in the quotes that could ideally b
 
 For a first analysis, we have chosen a broad selection of features. However, we will have to check if these features are relevant and not too correlated, especially since some of them may be redundant.
    
-#### Principal component analysis 
+#### Principal component analysis
 
 #### Validate our method
 
@@ -57,7 +57,7 @@ For a first analysis, we have chosen a broad selection of features. However, we 
 
 #### Intermediate steps until Milestone 3
 IDEAS FOR THE FUTURE (BROUILLON)
-* Study in more detail which features are most useful and relevant for our analysis
+* Study in more detail which features are most useful and relevant for our analysis (remove collinear features etc)
 * Investigate if Sentiment Analysis can be used as a feature for the PCA (for example by extracting the general sentiment over a specific topic for each speaker)
 * Try to add other politicians, or compare the Pope with another religious figure (ex: Dalai Lama)
 
