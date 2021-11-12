@@ -64,15 +64,15 @@ IDEAS FOR THE FUTURE (BROUILLON)
 
 
 ### References:
-[1] Forbes list of the World's Most Powerful People, Forbes, 2018, https://www.forbes.com/profile/pope-francis/?list=powerful-people&sh=2f8961946e0a, last accessed 10.11.2021
+[1] https://www.forbes.com/profile/pope-francis/?list=powerful-people&sh=2f8961946e0a
 
 [2] Vaucher Timoté, et al. "Quotebank: A Corpus of Quotations from a Decade of News." (2021) Proceedings of the 14th ACM International Conference on Web Search and Data Mining
 
-[3] Here’s how Americans rank the 2020 presidential candidates on the political spectrum, Business Insider, 2019, https://www.businessinsider.com/2020-democratic-presidential-candidates-political-spectrum-ranking-2019-5?IR=T, last accessed 10.11.2021
+[3] https://www.businessinsider.com/2020-democratic-presidential-candidates-political-spectrum-ranking-2019-5?IR=T
 
-[4] US election 2016: How Donald Trump compares to Ronald Reagan, BBC, 2016, https://www.bbc.com/news/election-us-2016-35703300, last accessed 10.11.2021
+[4] https://www.bbc.com/news/election-us-2016-35703300
 
-[5] Multiple pages, ISideWith (United States), https://www.isidewith.com/
+[5] https://www.isidewith.com/
 
 
 
