@@ -22,12 +22,12 @@ So far, we chose three Democrates and three Republicans with a substantial numbe
 
 | Political figure | Party      | Predicted position   | Number of quotations |
 |------------------|------------|----------------------|----------------------|
-| Elizabeth Warren | Democrates | Edge Democrates      | 48'397               |
-| Bernie Sanders   | Democrates | Edge Democrates      | 84'018               |
-| Hillary Clinton  | Democrates | Central Democrates   | 95'458               |
-| Ted Cruz         | Republicans| Edge Republicans     | 46'301               |
-| Mike Pence       | Republicans| Edge Republicans     | 46'893               |
-| Mitt Romney      | Republicans| Central Republicans  | 10'651               |
+| Elizabeth Warren | Democratic | Edge Democrates      | 48'397               |
+| Bernie Sanders   | Democratic | Edge Democrates      | 84'018               |
+| Hillary Clinton  | Democratic | Central Democrates   | 95'458               |
+| Ted Cruz         | Republican| Edge Republicans     | 46'301               |
+| Mike Pence       | Republican| Edge Republicans     | 46'893               |
+| Mitt Romney      | Republican| Central Republicans  | 10'651               |
 
 #### External libraries
 * empath
