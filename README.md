@@ -27,12 +27,15 @@ We chose six Democrates and six Republicans with a substantial number of quotes 
 | Alexandria Ocasio-Cortes | Democratic | Edge | 18'653 |
 | Pete Buttigieg | Democratic | Central | 24'523|
 | Kamala Harris | Democratic | Central | 19'091|
+|------------------|------------|----------------------|----------------------|
 | Ben Carson | Republican | Central | 22'448 |
 | Marco Rubio| Republican | Edge | 41'650 |
 | Nikki Haley| Republican | Central | 24'533 |
 | Ted Cruz         | Republican| Edge    | 46'301               |
 | Mike Pence       | Republican| Edge     | 46'893               |
 | Mitt Romney      | Republican| Central| 10'651               |
+|------------------|------------|----------------------|----------------------|
+|Pope Francis     | Religious| x | 102'993              |
 
 #### External libraries
 * empath
