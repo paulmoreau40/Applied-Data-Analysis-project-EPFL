@@ -30,9 +30,9 @@ We chose six Democrates and six Republicans with a substantial number of quotes 
 | Ben Carson | Republican | Central | 22'448 |
 | Marco Rubio| Republican | Edge | 41'650 |
 | Nikki Haley| Republican | Central | 24'533 |
-| Ted Cruz         | Republican| Edge Republicans     | 46'301               |
-| Mike Pence       | Republican| Edge Republicans     | 46'893               |
-| Mitt Romney      | Republican| Central Republicans  | 10'651               |
+| Ted Cruz         | Republican| Edge    | 46'301               |
+| Mike Pence       | Republican| Edge     | 46'893               |
+| Mitt Romney      | Republican| Central| 10'651               |
 
 #### External libraries
 * empath
