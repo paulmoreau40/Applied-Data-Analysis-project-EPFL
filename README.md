@@ -35,7 +35,7 @@ We chose six Democrates and six Republicans with a substantial number of quotes 
 | Mike Pence       | Republican| Edge     | 46'893               |
 | Mitt Romney      | Republican| Central| 10'651               |
 |------------------|------------|----------------------|----------------------|
-|Pope Francis     | Religious| x | 102'993              |
+|Pope Francis     | Religious| X | 102'993              |
 
 #### External libraries
 * empath
