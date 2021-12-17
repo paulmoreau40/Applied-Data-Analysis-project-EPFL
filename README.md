@@ -78,7 +78,7 @@ cold, occupation, nervousness, royalty, wealthy, blue collar job, college, optim
 * Luca : EDA, pre-processing, low variance feature selection, ReadMe
 * Melissa : Data story, PCA, data visualization, 
 * Paul : Feature selection, pre-processing 
-* Estelle : Data story, HTML, 
+* Estelle : Data story, data visualization
 
 
 
