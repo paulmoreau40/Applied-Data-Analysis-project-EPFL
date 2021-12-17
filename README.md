@@ -1,11 +1,16 @@
 # Let's Make it Pope-litical!
 
+### Data story
+
+Please visit our amazing website [here](https://melissaepfl.github.io/Popelitical/)
+
 ### Abstract
-At first glance, one might think that the Pope does not have much impact on our everyday life and on our country’s politics, yet he influences over 1.3 billion Catholics worldwide and regularly meets with the most powerful political figures of the planet. In the present work, we want to investigate how one of the mightiest apolitical figures on Earth [1] influences one sixth of the world population by using a novel quotations corpus : Quotebank. The main idea is therefore to try to situate the Pope on a political spectrum, here the American political system, using characteristics extracted from the corpus of his quotes. This will help us determine whether such an influential and, suposedly, non-political figure can be aligned with a certain political party or not. If you want to learn more without scrolling through a boring notebook, check this amazing website: http://MelissaEPFL.github.io/Popelitical
+
+At first glance, one might think that the pope does not have much impact on our everyday life and on our country’s politics, yet his opinion affects over 1.3 billion Catholics worldwide and regularly meets with the most powerful political figures of the planet. Here, we want to investigate how one of the mightiest apolitical figures on Earth influences one sixth of the world population by using a novel quotations corpus : Quotebank. Our main approach consists in placing the pope on the American political spectrum, alongside to a few emblematic Democrats and Republicans politicians, by extracting meaningful features from the quote corpus of each of our selected speakers. More precisely, we focused on analysing how important key topics such as politics, economics, war and religion were to our speakers by looking at the prominent lexical fields present in their statements.
 
 ### Research questions
 
-* Can we place the Pope on a simple political spectrum (e.g. American Democrates vs Republicans) using solely the quotations ?
+* Can we place the Pope on a simple political spectrum (American Democrats vs Republicans) using solely the quotations ?
 * What crucial features of the quotations will we need to do that ?
   * Is the use of lexical fields in an individual's citation corpus sufficient?
 
@@ -35,7 +40,7 @@ We chose six Democrates and six Republicans with a substantial number of quotes 
 | Mike Pence       | Republican| Edge     | 46'893               |
 | Mitt Romney      | Republican| Central| 10'651               |
 |------------------|------------|----------------------|----------------------|
-|Pope Francis     | Religious| X | 102'993              |
+|Pope Francis     | Apolitical | X | 102'993              |
 
 #### External libraries
 * empath
@@ -69,20 +74,12 @@ This selection led us to the the following features:
 cold, occupation, nervousness, royalty, wealthy, journalism, blue collar jobs, college, optimism, real estate, home, divine, leader, celebration, violence, military, air_travel, meeting, war, urban, appearance, warmth, youth, politics, breaking, power, terrorism, negotiate, children
 
 ### tagADA-team members contribution
-* Luca : EDA, pre-processing, low variance fetures selection, ReadMe
-* Melissa : Website, …
-* Paul : Feature selection, … 
-* Estelle : Website, …
+* Luca : EDA, pre-processing, low variance feature selection, ReadMe
+* Melissa : Data story, PCA, data visualization, 
+* Paul : Feature selection, pre-processing 
+* Estelle : Data story, HTML, 
 
 
-### References:
-[1] https://www.forbes.com/profile/pope-francis/?list=powerful-people&sh=2f8961946e0a
-
-[2] https://www.businessinsider.com/2020-democratic-presidential-candidates-political-spectrum-ranking-2019-5?IR=T
-
-[3] https://www.bbc.com/news/election-us-2016-35703300
-
-[4] https://www.isidewith.com/
 
 
 
