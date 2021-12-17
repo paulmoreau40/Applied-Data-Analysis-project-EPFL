@@ -6,12 +6,12 @@ Please visit our amazing website [here](https://melissaepfl.github.io/Popelitica
 
 ### Abstract
 
-At first glance, one might think that the pope does not have much impact on our everyday life and on our country’s politics, yet his opinion affects over 1.3 billion Catholics worldwide and regularly meets with the most powerful political figures of the planet. Here, we want to investigate how one of the mightiest apolitical figures on Earth influences one sixth of the world population by using a novel quotations corpus : Quotebank. Our main approach consists in placing the pope on the American political spectrum, alongside to a few emblematic Democrats and Republicans politicians, by extracting meaningful features from the quote corpus of each of our selected speakers. More precisely, we focused on analysing how important key topics such as politics, economics, war and religion were to our speakers by looking at the prominent lexical fields present in their statements.
+At first glance, one might think that the pope does not have much impact on our everyday life and on our country’s politics, yet his opinion affects over 1.3 billion Catholics worldwide and regularly meets with the most powerful political figures of the planet. Here, we want to investigate how one of the mightiest apolitical figures on Earth influences one sixth of the world population by using a novel quotations corpus : Quotebank. Our main approach consists in placing the pope on the American political spectrum, alongside to several emblematic Democrats and Republicans politicians, by extracting meaningful features from the quote corpus of each of our selected speakers. More precisely, we focused on analysing how important are key topics such as politics, economics, war and religion to our speakers by looking at the prominent lexical fields present in their statements.
 
 ### Research questions
 
 * Can we place the Pope on a simple political spectrum (American Democrats vs Republicans) using solely the quotations ?
-* What crucial features of the quotations will we need to do that ?
+* What are the key features of the quotations we will need to do this ?
   * Is the use of lexical fields in an individual's citation corpus sufficient?
 
 ### Methods
@@ -19,8 +19,9 @@ At first glance, one might think that the pope does not have much impact on our 
 The political spectrum we chose to place the Pope on is the American bipartite system with the Democratic and Republican Partys. We chose this system because Quotebank corpus is in English, their political spectrum is particularly simple due to its binarity and a lot of data (i.e. quotations) come from American politicians. Our general approach consists in :
 1. Extracting meaningful features from the quotations corpus of the pope
 2. Doing the same for a few emblematic American political figures 
-3. Applying a principal component analysis (PCA), each datapoint is one speaker
-4. Appreciating the relative position of the politicians with regards to the pope in a 2D PCA
+3. Applying a principal component analysis (PCA) to visualize the primary results, one datapoint per speaker
+4. Testing methods of feature selection to improve the accuracy and interpretability of the results
+5. Appreciating the relative position of the politicians with regards to the pope in a final 2D PCA with the selected features
 
 We chose six Democrates and six Republicans with a substantial number of quotes and with varied predicted position on the political spectrum (either central or on the edge of the spectrum) [2,3,4].
 
@@ -48,10 +49,10 @@ We chose six Democrates and six Republicans with a substantial number of quotes 
 * fastText (pre-trained model)
 * matplotlib-venn
 * spacy, nltk
-* plotly, word cloud
+* plotly, wordcloud
 
 #### Pre-Processing
-First, we transform the speakers' probability from object type into float numbers to simplify future analysis. We eliminate from the data the quotes that have too low a first speaker probability. Then, we perform simple pre-processing steps on the quotes such as removing the digits, punctuation, spaces at the beginning and ending of quotes, capitalization from words and removing rows with empty quotes. We also tokenize the quotes (break the strings into tokens) to remove the stop words and lemmatize the quotes to focus on meaning. Finally, after performing these steps, we delete quotes that are not in English with a pre-trained model from fastText.
+First, we transform the speakers' probability from object type into float numbers to simplify future analysis. We eliminate from the data the quotes that have too low a first speaker probability. Then, we perform simple pre-processing steps on the quotes such as removing the digits, punctuation, spaces at the beginning and ending of quotes, capitalization from words (case folding) and removing rows with empty quotes. We also tokenize the quotes (break the strings into tokens) to remove the stop words and lemmatize the quotes to focus on meaning. Finally, after performing these steps, we delete quotes that are not in English with a pre-trained model from fastText.
 
 #### Feature extraction
 Then, we want to extract interesting features in the quotes that could ideally be used to cluster the different speakers into political groups and enable to find the Pope's position on this political spectrum. The first features that we extract for each speaker are:
