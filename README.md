@@ -40,7 +40,7 @@ We chose six Democrates and six Republicans with a substantial number of quotes 
 | Mike Pence       | Republican| Edge     | 46'893               |
 | Mitt Romney      | Republican| Central| 10'651               |
 |------------------|------------|----------------------|----------------------|
-|Pope Francis     | Religious| X | 102'993              |
+|Pope Francis     | Apolitical | X | 102'993              |
 
 #### External libraries
 * empath
@@ -74,20 +74,12 @@ This selection led us to the the following features:
 cold, occupation, nervousness, royalty, wealthy, journalism, blue collar jobs, college, optimism, real estate, home, divine, leader, celebration, violence, military, air_travel, meeting, war, urban, appearance, warmth, youth, politics, breaking, power, terrorism, negotiate, children
 
 ### tagADA-team members contribution
-* Luca : EDA, pre-processing, low variance fetures selection, ReadMe
-* Melissa : Website, …
-* Paul : Feature selection, … 
-* Estelle : Website, …
+* Luca : EDA, pre-processing, low variance feature selection, ReadMe
+* Melissa : Data story, PCA, data visualization, 
+* Paul : Feature selection, pre-processing 
+* Estelle : Data story, HTML, 
 
 
-### References:
-[1] https://www.forbes.com/profile/pope-francis/?list=powerful-people&sh=2f8961946e0a
-
-[2] https://www.businessinsider.com/2020-democratic-presidential-candidates-political-spectrum-ranking-2019-5?IR=T
-
-[3] https://www.bbc.com/news/election-us-2016-35703300
-
-[4] https://www.isidewith.com/
 
 
 
