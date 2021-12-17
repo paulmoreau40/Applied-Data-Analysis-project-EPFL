@@ -55,12 +55,12 @@ We chose six Democrates and six Republicans with a substantial number of quotes 
 First, we transform the speakers' probability from object type into float numbers to simplify future analysis. We eliminate from the data the quotes that have too low a first speaker probability. Then, we perform simple pre-processing steps on the quotes such as removing the digits, punctuation, spaces at the beginning and ending of quotes, capitalization from words (case folding) and removing rows with empty quotes. We also tokenize the quotes (break the strings into tokens) to remove the stop words and lemmatize the quotes to focus on meaning. Finally, after performing these steps, we delete quotes that are not in English with a pre-trained model from fastText.
 
 #### Feature extraction
-Then, we want to extract interesting features in the quotes that could ideally be used to cluster the different speakers into political groups and enable to find the Pope's position on this political spectrum. The first features that we extract for each speaker are:
+Then, we extract interesting features in the quotes that could ideally be used to cluster the different speakers into political groups and enable to find the Pope's position on this political spectrum. The first features that we extract for each speaker are:
 * The median of the number of words in the quotes
 * The median of the number of characters in the quotes
 * The median of the number of occurences of the quotes
-* The richness of the vocabulary, that we compute by counting the number of different words in the pre-processed quotes and by dividing it by the total number of quotes of the speaker.
-* The scores returned by the analyze function of the Empath library for all the available lexical categories.
+* The richness of the vocabulary, that we compute by counting the number of unique different words in the pre-processed quotes and by dividing it by the total number of quotes of the speaker.
+* The scores returned by the Empath library's parsing function for all available lexical categories.
 * Pronouns perspective: the way a speaker talks based on frequency of the pronoun used (I, you, we).
 
 #### Features selection for the final 2D PCA 
@@ -69,10 +69,10 @@ This task was performed on three parts:
 
 * Features with low variance were removed at a threshold based on their distribution 
 * When two features were too highly correlated (|r| >= 0.95) one was removed
-* A random forest of 10’000 trees was trained to then find the optimal combination of features.
+* A random forest of 10’000 trees was trained to find the optimal combination of features.
 
-This selection led us to the the following features:
-cold, occupation, nervousness, royalty, wealthy, journalism, blue collar jobs, college, optimism, real estate, home, divine, leader, celebration, violence, military, air_travel, meeting, war, urban, appearance, warmth, youth, politics, breaking, power, terrorism, negotiate, children
+This selection led us to the the 29 following features:
+cold, occupation, nervousness, royalty, wealthy, journalism, blue collar jobs, college, optimism, real estate, home, divine, leader, celebration, violence, military, air travel, meeting, war, urban, appearance, warmth, youth, politics, breaking, power, terrorism, negotiate, children
 
 ### tagADA-team members contribution
 * Luca : EDA, pre-processing, low variance feature selection, ReadMe
