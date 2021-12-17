@@ -72,7 +72,7 @@ This task was performed on three parts:
 * A random forest of 10’000 trees was trained to find the optimal combination of features.
 
 This selection led us to the the 29 following features:
-cold, occupation, nervousness, royalty, wealthy, journalism, blue collar jobs, college, optimism, real estate, home, divine, leader, celebration, violence, military, air travel, meeting, war, urban, appearance, warmth, youth, politics, breaking, power, terrorism, negotiate, children
+cold, occupation, nervousness, royalty, wealthy, blue collar job, college, optimism, real estate, home, divine, reading, leader, celebration, violence, military, air travel, meeting, urban, appearance, warmth, youth, politics, breaking, power, terrorism, negative emotion, children, I
 
 ### tagADA-team members contribution
 * Luca : EDA, pre-processing, low variance feature selection, ReadMe
