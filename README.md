@@ -2,7 +2,8 @@
 
 ### Data story
 
-Please visit our amazing website [here](https://melissaepfl.github.io/Popelitical/)
+Please visit our amazing website [here](https://melissaepfl.github.io/Popelitical/).
+The final version of the code is src/Milestone_3.ipynb
 
 ### Abstract
 
